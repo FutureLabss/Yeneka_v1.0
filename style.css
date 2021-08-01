@@ -1,0 +1,368 @@
+* {
+    font-style: normal;
+    font-family: sans-serif Arial, Helvetica, sans-serif;
+  }
+  
+  #myNav {
+    background-color: rgb(199, 26, 26);
+    position: fixed;
+    width: 100%  !important;
+    top: 0%;
+  }
+  
+  
+  .black-txt {
+    color: black;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+
+  /* .product {
+    transition: transform .2s;
+  }
+  
+  .product:hover {
+    -ms-transform: scale(1.0);
+    -webkit-transform: scale(1.0); 
+    transform: scale(1.0); 
+  } */
+  
+  .product:hover, .product-slide:active{
+    font-weight: bold;
+  }
+  
+  
+  .image {
+    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385740/futurelabs/retailer_tbhwco.jpg');
+    /* background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385909/futurelabs/franki-chamaki-CmqcUGYuKJU-unsplash_ulelmj.jpg'); */
+    /* background-image: url("https://res.cloudinary.com/not-set/image/upload/v1625759547/futurelabs/another2_gx5vlz.jpg"); */
+    background-size: contain;
+    object-fit: fill;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  }
+
+  .image1 {
+    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385909/futurelabs/franki-chamaki-CmqcUGYuKJU-unsplash_ulelmj.jpg');
+    /* background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385740/futurelabs/retailer_tbhwco.jpg'); */
+    /* background-image: url("https://res.cloudinary.com/not-set/image/upload/v1625759547/futurelabs/another2_gx5vlz.jpg"); */
+    background-size: contain;
+    object-fit: fill;
+    max-width: 100%;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  }
+
+  .image3 {
+    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385531/futurelabs/retaailbest_jprqz6.jpg');
+    /* background-image: url("https://res.cloudinary.com/not-set/image/upload/v1625759547/futurelabs/another2_gx5vlz.jpg"); */
+    background-size: cover;
+    object-fit: fill;
+    max-width: 100%;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  }
+
+  .connect {
+    transition: transform .2s;
+  }
+  
+  .connect:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  
+  .connect:hover, .connect-slide:active{
+    height:20px;
+  }
+
+  
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+    .image {
+      background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385740/futurelabs/retailer_tbhwco.jpg');
+      /* background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385909/futurelabs/franki-chamaki-CmqcUGYuKJU-unsplash_ulelmj.jpg'); */
+      /*background-image: url("https://res.cloudinary.com/not-set/image/upload/v1625759547/futurelabs/another2_gx5vlz.jpg"); */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 260px;
+      object-fit: cover;
+    }
+
+
+    .image1 {
+      background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385909/futurelabs/franki-chamaki-CmqcUGYuKJU-unsplash_ulelmj.jpg');
+      /* background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385740/futurelabs/retailer_tbhwco.jpg'); */
+      /* background-image: url("https://res.cloudinary.com/not-set/image/upload/v1625759547/futurelabs/another2_gx5vlz.jpg"); */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 320px;
+      object-fit: cover;
+    }
+
+    .image3 {
+      background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385531/futurelabs/retaailbest_jprqz6.jpg');
+      /* background-image: url("https://res.cloudinary.com/not-set/image/upload/v1625759547/futurelabs/another2_gx5vlz.jpg"); */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 320px;
+      object-fit: cover;
+    }
+  
+  }
+
+  .template {
+    border-style: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(58, 47, 47, 0.918), rgba(73, 63, 59, 0.89)),
+    url('');
+
+  }
+
+  .action {
+    transition: transform .2s;
+  }
+  
+  .action:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  
+  .action:hover, .action-slide:active{
+    height:20px;
+  }
+
+
+
+
+
+  .action1 {
+    transition: transform .2s;
+  }
+  
+  .action1:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+  
+  .action1:hover, .action1-slide:active{
+    height:28px;
+  }
+  
+  /* searchbar positioning at screen size more than 408px  */
+  @media only screen and (min-width: 408px) {
+    #inputdown {
+      display: none !important;
+    }
+  
+    #section-one-row-one {
+      min-height: 520px;
+      /* min-height: 300px; */
+    }
+  
+    #section-one-row-two {
+      min-height: 410px;
+    }
+  }
+
+  .section-three {
+    color: white !important;
+  }
+  
+  button {
+    border-style: none;
+  }
+  
+  .stylee {
+    text-decoration: none !important;
+  }
+  
+  .red-bg {
+    background-color: rgb(199, 26, 26) !important;
+  }
+
+  .red-bg:hover, .red-bg-slide:active {
+    background-color: rgb(138, 8, 8) !important;
+  }
+
+  .button2:hover, .learn-slide:active {
+    background-color: rgb(230, 221, 221) !important;
+  }
+
+  .learn:hover, .learn-slide:active {
+    color: rgb(207, 15, 15) !important;
+  }
+
+  
+  #inputdown {
+    position: fixed;
+    /* max-width: 74px !important; */
+    max-width: 90px !important;
+    bottom: 2%;
+    /* left: 25px; */
+    background-color: transparent;
+    border-color: black;
+    border: 3px solid;
+  }
+  
+  #inputdown {
+    transition: transform .2s;
+  }
+  
+  #inputdown:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  
+  #inputdown:hover, #inputdown-slide:active{
+    height:23px;
+    position: fixed;
+    background-color: white;
+    /* max-width: 55px; */
+    /* bottom: 725px; */
+    left: 25px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  #inputup {
+    transition: transform .2s;
+  }
+  
+  #inputup:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  
+  #inputup:hover, #inputup-slide:active{
+    height:23px;
+  }
+  
+  /* searchbar positioning at screen size less than 408px  */
+  @media only screen and (max-width: 408px) {
+  
+    #inputup {
+      display: none;
+    }
+    
+  }
+  
+  
+  
+  
+  .container {
+    max-width: 960px;
+  }
+    
+    
+    
+  .site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  
+  .site-header a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+  }
+  
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sample {
+    background-image: url('coded.jpg');
+    min-height: 150px;
+    height: 100%;
+    object-position: center !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+  
+    
+  .flex-equal > * {
+    flex: 1;
+  }
+    
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+      }
+  }
+  
+  
+  
+  /* picture2 url--  https://res.cloudinary.com/not-set/image/upload/v1625759718/futurelabs/another1_osnm8a.jpg */
+  
+  
+    
+  
+  #image {
+    position: fixed;
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    /* top: 10%; */
+    /* left: 10%; */
+    /* right: 10%; */
+    /* bottom: 10%; */
+    background-color: rgba(0,0,0,0.5);
+    /* z-index: 2; */
+    cursor: pointer;
+  }
+  
+  #imageTwo {
+    position: fixed;
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    /* top: 10%; */
+    /* left: 10%; */
+    /* right: 10%; */
+    /* bottom: 10%; */
+    background-color: rgba(0,0,0,0.5);
+    /* z-index: 2; */
+    cursor: pointer;
+  }
+  
+  #imageThree {
+    position: fixed;
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    /* top: 10%; */
+    /* left: 10%; */
+    /* right: 10%; */
+    /* bottom: 10%; */
+    background-color: rgba(0,0,0,0.5);
+    /* z-index: 2; */
+    cursor: pointer;
+  }
+
+
+  

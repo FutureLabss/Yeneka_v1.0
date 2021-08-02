@@ -164,6 +164,24 @@
   .action1:hover, .action1-slide:active{
     height:28px;
   }
+
+
+
+
+
+  /* .action2 {
+    transition: transform .2s;
+  }
+  
+  .action2:hover {
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+  } */
+  
+  .action2:hover, .action2-slide:active{
+    font-weight: 500;
+  }
   
   /* searchbar positioning at screen size more than 408px  */
   @media only screen and (min-width: 408px) {

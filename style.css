@@ -149,6 +149,16 @@
   
   }
 
+  .template1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgb(199, 26, 26), rgba(199, 26, 26, 0.89)),
+    url('');
+
+  }
+
   .template {
     border-style: none;
     background-size: cover;

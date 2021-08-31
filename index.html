@@ -81,7 +81,10 @@
         </div>
       </div>
       <div class="marquee pt-0 mx-md-5 mx-2">
-        <p class="mt-0 pt-0">🎉 🎉 🎉 Yipee! Today is popcorn & peanut Marketday. Retailers are going crunchy. Sign up now &#x1F60E;</p>
+        <p class="mt-0 pt-0">
+          🎉 🎉 🎉 Yipee! Wednesday is soap & fragrance Marketday. It's gonna be aromatic. Sign up now &#x1F60E;
+          <!-- 🎉 🎉 🎉 Yipee! Monday is popcorn & peanut Marketday. Retailers are going crunchy. Sign up now &#x1F60E;-->
+        </p>
       </div>
     </nav>   
     
@@ -839,10 +842,10 @@
               <li class="text-muted">Chin-chin</li>
               <li class="text-muted">Peanut Burger</li>
               <li class="text-muted">Plantain Chips</li>
-              <li class="text-muted">Pop-corn</li>
+              <li class="text-muted">Popcorn</li>
               <li class="text-muted">Cake</li>
-              <li class="text-muted">Ice Cream</li>
-              <li class="text-muted">Zobo Drink</li>
+              <li class="text-muted">Doughnut</li>
+              <!-- <li class="text-muted">Zobo Drink</li> -->
             </ul>
             <p class="text-muted">All products under 'Food and Snack' bartered through Yeneka MUST:</p>
 
@@ -1012,7 +1015,7 @@
                 <li class="mt-3"><a class="product text-muted" href="" style="text-decoration: none;">💧 Perfumes</a></li>
                 <li class="mt-3"><a class="product text-muted" href="" style="text-decoration: none;">🏮 Lotion</a></li>
                 <li class="mt-3"><a class="product text-muted" href="" style="text-decoration: none;">🌰 [Liquid]Soaps</a></li>
-                <li class="mt-3"><a class="product text-muted" href="" style="text-decoration: none;">..more coming</a></li>
+                <li class="mt-3"><a class="text-muted" href="" style="text-decoration: none;">..more coming</a></li>
               </ul>
             </div>
         
@@ -1034,21 +1037,40 @@
     </div>
 
 
-    <!-- <section class="my-5">
+    <section class="my-5">
       <div class="container my-4">
         <div class="row">
-          <div class="col-12 text-center mx-auto">
-           <h5 class="text-muted px-md-3">
-
-            We're a network of Small Businesses putting each other's brand in retail stores through barter.
-             
-           </h5>
-           
-          <hr class="my-3 mx-auto" style="max-width: 420px; height: 2px; background-color: red;">
+          <div class="col-12">
+            <h3 class="text-center">FAQs</h3>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center mx-auto">
+              <!-- <h5 class="text-muted px-md-3"> -->
+   
+               <button class="accordion rounded">Section 1 <hr class="my-0 text-danger" style="height: 3px;"></button>
+               <div class="panel">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+               </div>
+               
+               <button class="accordion rounded">Section 2 <hr class="my-0 text-danger" style="height: 3px;"></button>
+               <div class="panel">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+               </div>
+               
+               <button class="accordion rounded">Section 3 <hr class="my-0 text-danger" style="height: 3px;"></button>
+               <div class="panel">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+               </div>
+   
+                
+              <!-- </h5> -->
+              
+             <!-- <hr class="my-3 mx-auto" style="max-width: 420px; height: 2px; background-color: red;"> -->
+             </div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
     
 
@@ -1231,75 +1253,24 @@
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
 
-
-
-
-    <!-- <script>
-      
-    function sendMail(param) {
-    
-    var db = "12345";
-    var inputData = document.getElementsByClassName(param)[0].value;
-    
-    
-    var input = document.getElementsByClassName(param)[0];
-    input.addEventListener("keyup", function(event) {
-      if (inputData === db && event.keyCode === 13) {
-       event.preventDefault();
-       document.getElementById("myBtn").click();
-       document.getElementById("exampleModalCenter3").style.display = "block";
-       document.getElementById("text").style.display = "block";
-       
-      } else {document.getElementById("exampleModalCenter3").style.display = "none";
-      document.getElementById("text").style.display = "none";
-       
-      
-    }
-    
-    });
-    
-    }
-    
-    </script>
-    
-    
     <script>
-      window.addEventListener('mouseup',function(event){
-            var image = document.getElementById('image');
-            if(event.target != image && event.target.parentNode != image){
-                image.style.display = 'none';
-            }
-      });  
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
     </script>
+      
 
-
-
-
-
-
-
-<script>
-  window.addEventListener('mouseup',function(event){
-        var imageTwo = document.getElementById('imageTwo');
-        if(event.target != imageTwo && event.target.parentNode != imageTwo){
-            imageTwo.style.display = 'none';
-        }
-  });  
-</script>
-
-
-
-
-
-
-<script>
-  window.addEventListener('mouseup',function(event){
-        var imageThree = document.getElementById('imageThree');
-        if(event.target != imageThree && event.target.parentNode != imageThree){
-            imageThree.style.display = 'none';
-        }
-  });  
-</script> -->
 
 
 

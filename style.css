@@ -23,7 +23,7 @@
 
 /* accordion begins here */
 .accordion {
-  background-color: rgb(224, 221, 221);
+  background-color: rgb(236, 234, 234);
   color: black;
   /* color: white; */
   cursor: pointer;
@@ -37,7 +37,7 @@
 }
 
 .active, .accordion:hover {
-  background-color: rgb(247, 241, 241); 
+  background-color: rgb(219, 216, 216); 
 }
 
 .panel {
@@ -45,6 +45,11 @@
   display: none;
   background-color: white;
   overflow: hidden;
+  font-size: 15px;
+}
+
+.small {
+  font-size: small;
 }
 
 

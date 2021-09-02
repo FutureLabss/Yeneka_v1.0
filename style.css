@@ -23,8 +23,9 @@
 
 /* accordion begins here */
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: rgb(224, 221, 221);
+  color: black;
+  /* color: white; */
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -36,7 +37,7 @@
 }
 
 .active, .accordion:hover {
-  background-color: #ccc; 
+  background-color: rgb(247, 241, 241); 
 }
 
 .panel {
@@ -97,8 +98,8 @@
   }
 
   .image1 {
-    /* background-image: url('smallstore2.jpg'); */
-    background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385909/futurelabs/franki-chamaki-CmqcUGYuKJU-unsplash_ulelmj.jpg');
+    background-image: url('pop.jpeg');
+    /* background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385909/futurelabs/franki-chamaki-CmqcUGYuKJU-unsplash_ulelmj.jpg'); */
     background-size: contain;
     object-fit: fill;
     max-width: 100%;

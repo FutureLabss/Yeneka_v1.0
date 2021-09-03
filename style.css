@@ -103,7 +103,7 @@
   }
 
   .image1 {
-    background-image: url('pop.jpeg');
+    background-image: url('finally.png');
     /* background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385909/futurelabs/franki-chamaki-CmqcUGYuKJU-unsplash_ulelmj.jpg'); */
     background-size: contain;
     object-fit: fill;
@@ -115,6 +115,7 @@
   }
 
   .image3 {
+    /* background-image: url('smallstore21.jpg'); */
     background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385531/futurelabs/retaailbest_jprqz6.jpg');
     /* background-image: url("https://res.cloudinary.com/not-set/image/upload/v1625759547/futurelabs/another2_gx5vlz.jpg"); */
     background-size: cover;
@@ -157,7 +158,8 @@
 
 
     .image1 {
-      background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385909/futurelabs/franki-chamaki-CmqcUGYuKJU-unsplash_ulelmj.jpg');
+      background-image: url('finally.png');
+      /* most-recent background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385909/futurelabs/franki-chamaki-CmqcUGYuKJU-unsplash_ulelmj.jpg'); */
       /* background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385740/futurelabs/retailer_tbhwco.jpg'); */
       /* background-image: url("https://res.cloudinary.com/not-set/image/upload/v1625759547/futurelabs/another2_gx5vlz.jpg"); */
       background-size: cover;
@@ -168,6 +170,7 @@
     }
 
     .image3 {
+      /* background-image: url('smallstore21.jpg'); */
       background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385531/futurelabs/retaailbest_jprqz6.jpg');
       /* background-image: url("https://res.cloudinary.com/not-set/image/upload/v1625759547/futurelabs/another2_gx5vlz.jpg"); */
       background-size: cover;

@@ -82,8 +82,8 @@
       </div>
       <div class="marquee pt-0 mx-md-5 mx-2">
         <p class="mt-0 pt-0">
-          🎉 🎉 🎉 Yipee! Friday is soap & fragrance Marketday. It's gonna be aromatic. Sign up now &#x1F60E;
-          <!-- 🎉 🎉 🎉 Yipee! Monday is popcorn & peanut Marketday. Retailers are going crunchy. Sign up now &#x1F60E;-->
+          <!-- 🎉 🎉 🎉 Yipee! Friday is soap & fragrance Marketday. It's gonna be aromatic. Sign up now &#x1F60E; -->
+          🎉 🎉 🎉 Yipee! Monday is popcorn & peanut Marketday. Retailers are going crunchy. Sign up now &#x1F60E;
         </p>
       </div>
     </nav>   
@@ -535,7 +535,7 @@
             <h5 class="text-muted text-center mt-0">
               <!-- Yeneka is like trade by barter, but for distribution. -->
               <!-- We're a B2B distribution network putting small & new brands in retail stores. -->
-              We're a network of small businesses putting each other's brand in retail stores through barter
+              We're a network of small businesses putting each other's product in retail stores through barter
             </h5>
             <h6 class="text-muted text-center display-6 mb-2 mt-5">
               It's simple; I restock your retailer, you restock mine.
@@ -994,7 +994,7 @@
           <div class="row">
             <div class="col-12 mt-4 mb-3 px-md-5">
               <h3>Products Getting Distributed</h3>
-              <p class="text-muted">Tab to view samples</p>
+              <p class="text-muted">Tab below to view samples</p>
             </div>
           </div>
           <div class="row px-md-5 mb-4">
@@ -1002,12 +1002,12 @@
               <h5 class="">Food & Snack</h5>
               <ul class="text-muted">
                 <!-- <li>Cake</li> -->
-                <li class="mt-3"><a class="product text-muted" href="" style="text-decoration: none;">🍪 Peanut Burger</a></li>
-                <li class="mt-3"><a class="product text-muted" href="" style="text-decoration: none;">🥖 Chinchin</a></li>
-                <li class="mt-3"><a class="product text-muted" href="" style="text-decoration: none;">🥓 Plantain Chips</a></li>
-                <li class="mt-3"><a class="product text-muted" href="" style="text-decoration: none;">🍿 Popcorn</a></li>
-                <li class="mt-3"><a class="product text-muted" href="" style="text-decoration: none;">🧀 Cakes</a></li>
-                <li class="mt-3"><a class="product text-muted" href="" style="text-decoration: none;">🍩 Doughnut</a></li>
+                <li class="mt-3"><a class="product text-muted" href="" data-toggle="modal" data-target="#exampleModalProducts" style="text-decoration: none;">🍪 Peanut Burger</a></li>
+                <li class="mt-3"><a class="product text-muted" href="" data-toggle="modal" data-target="#exampleModalProducts" style="text-decoration: none;">🥖 Chinchin</a></li>
+                <li class="mt-3"><a class="product text-muted" href="" data-toggle="modal" data-target="#exampleModalProducts" style="text-decoration: none;">🥓 Plantain Chips</a></li>
+                <li class="mt-3"><a class="product text-muted" href="" data-toggle="modal" data-target="#exampleModalProducts" style="text-decoration: none;">🍿 Popcorn</a></li>
+                <li class="mt-3"><a class="product text-muted" href="" data-toggle="modal" data-target="#exampleModalProducts" style="text-decoration: none;">🧀 Cakes</a></li>
+                <li class="mt-3"><a class="product text-muted" href="" data-toggle="modal" data-target="#exampleModalProducts" style="text-decoration: none;">🍩 Doughnut</a></li>
                 <!-- <li class="mt-3"><a class="product text-muted" href="" style="text-decoration: none;">Zobo Drink</a></li> -->
 
                 
@@ -1020,15 +1020,40 @@
             <div class="col-6 .my-auto">
               <h5 class="">Care & Cleaning</h5>
               <ul class="text-muted">
-                <li class="mt-3"><a class="product text-muted" href="" style="text-decoration: none;">💧 Perfumes</a></li>
-                <li class="mt-3"><a class="product text-muted" href="" style="text-decoration: none;">🏮 Lotion</a></li>
-                <li class="mt-3"><a class="product text-muted" href="" style="text-decoration: none;">🌰 [Liquid]Soaps</a></li>
+                <li class="mt-3"><a class="product text-muted" href="" data-toggle="modal" data-target="#exampleModalProducts" style="text-decoration: none;">💧 Perfumes</a></li>
+                <li class="mt-3"><a class="product text-muted" href="" data-toggle="modal" data-target="#exampleModalProducts" style="text-decoration: none;">🏮 Lotion</a></li>
+                <li class="mt-3"><a class="product text-muted" href="" data-toggle="modal" data-target="#exampleModalProducts" style="text-decoration: none;">🌰 [Liquid]Soaps</a></li>
                 <li class="mt-3"><a class="text-muted" href="" style="text-decoration: none;">..more coming</a></li>
               </ul>
             </div>
         
           </div>
         </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalProducts" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Product samples</h5>
+                <button type="button" class="close bg-danger text-light" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h6 class=".text-muted">Oops! We're currently unable to fetch product photos.</h6>
+                
+                <p class="text-muted">Check back later.</p>
+              </div>
+              <div class="modal-footer">
+                <!-- <button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#exampleModalCenterSignup">Signup</button> -->
+                <button type="button" class="btn btn-secondary bg-danger" data-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+    
 
         <div class="col-md-6 image1">
           <div class="row">
@@ -1095,7 +1120,9 @@
                 <hr class="my-0 text-danger" style="height: 3px;">
                </button>
                <div class="panel my-3 text-muted" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                 <p>&#8226; Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                 <p>Yes, you do.</p>
+                 <p>You get to choose which business you barter with, set your favourite brands or reject a product during a barter.</p>
+                 <p>Also, products are come contained in transparent packaging, sealed & labelled.</p>
                </div>
 
                <button class="accordion rounded">
@@ -1196,7 +1223,7 @@
                 <ul class="px-0" style="list-style: none;">
                   <a class="text-muted"><li class="py-2">Calabar</li></a>
                   <a class="text-muted"><li class="py-2">Ibadan</li></a>
-                  <a class="text-muted" href=""><li class="py-2">...sign up to add city</li></a>
+                  <a class="text-muted small" href=""><li class="py-2 small">...sign up to add city</li></a>
                   <!-- <a class="text-muted" href=""><li class="py-2">Benin City</li></a> -->
                   <!-- <a class="text-muted" href=""><li class="py-2">Aba</li></a> -->
                 </ul>
@@ -1216,8 +1243,8 @@
         <div class="row">
 
 
-          <!-- <div class="col-4 image5"></div>
-          <div class="col-4 image6"></div> -->
+          <!-- <div class="col-6 okay"></div>
+          <div class="col-6 okay"></div> -->
           
           <div class="col-md-12 text-center mt-3 mb-1 image3">
             <div class="row pb-2 mt-5">
@@ -1229,6 +1256,7 @@
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>

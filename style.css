@@ -11,31 +11,6 @@
   margin-right: auto;
 } */
 
-.okay {
-  max-width: 100%;
-  height: 100%;
-  background-image: url('soap.jpg');
-  background-size: contain;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
-  margin-left: auto;
-  margin-right: auto;
-  background-repeat: round;
-
-  /* background-color: red;
-  display: block;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100%;
-  width: 200px;
-  object-fit: contain;
-  object-position: center;
-  margin-left: auto;
-  margin-right: auto; */
-}
-
-
 
 .marquee {
   width: 100vw;
@@ -153,13 +128,12 @@
   }
 
   .image3 {
-    /* background-image: url('smallstore21.jpg'); */
+    /* background-image: url('soap.jpg'); */
     background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385531/futurelabs/retaailbest_jprqz6.jpg');
-    /* background-image: url("https://res.cloudinary.com/not-set/image/upload/v1625759547/futurelabs/another2_gx5vlz.jpg"); */
     background-size: cover;
     object-fit: fill;
-    max-width: 100%;
     min-height: 400px;
+     
     background-repeat: no-repeat;
     background-position: center;
   
@@ -208,9 +182,8 @@
     }
 
     .image3 {
-      /* background-image: url('smallstore21.jpg'); */
+      /* background-image: url('soap.jpg'); */
       background-image: url('https://res.cloudinary.com/not-set/image/upload/v1627385531/futurelabs/retaailbest_jprqz6.jpg');
-      /* background-image: url("https://res.cloudinary.com/not-set/image/upload/v1625759547/futurelabs/another2_gx5vlz.jpg"); */
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;

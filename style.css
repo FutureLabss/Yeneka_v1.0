@@ -75,6 +75,11 @@
   .boxer {
     background-color: rgb(201, 74, 74);
   }
+
+  .bold {
+    font-weight: 600 !important;
+
+  }
   
   #myNav {
     background-color: rgb(199, 26, 26);

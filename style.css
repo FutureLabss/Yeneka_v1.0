@@ -71,6 +71,10 @@
     font-style: normal;
     font-family: sans-serif Arial, Helvetica, sans-serif;
   }
+
+  .boxer {
+    background-color: rgb(179, 67, 67);
+  }
   
   #myNav {
     background-color: rgb(199, 26, 26);
